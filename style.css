@@ -1,82 +1,11 @@
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
-
-/*
- * Base structure
- */
-
-html,
 body {
-  height: 100%;
-  background-color: #333;
-  background-image:url(http://unsphttps://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlc2lnbmVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60lash.it/1600x800);
-  background-size:cover;
-  background-position:center center;
-}
-body {
-  color: #fff;
-  text-align: center;
-}
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-}
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-.cover-container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
-
-/*
- * Cover
- */
-
-.cover {
-  padding: 10px 20px;
-  background:rgba(0,0,0,0.3);
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
+	color: white;
   }
-  /* Handle the widths */
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  .image-background {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("https://i.redd.it/9qgaiif7gum31.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
   }
-}
-
-@media (min-width: 992px) {
-  .cover-container {
-    width: 700px;
-  }
-}
