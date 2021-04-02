@@ -33,11 +33,19 @@ body {
 	justify-content: center;
 }
 .btn {
-	display: inline-block;
-	background: red;
+	display: flex;
 	color: white;
-	padding-top: 10px;
-	border-radius: 20px;
 	align-items: center;
 	justify-content: center;
+	text-decoration: none;
+	font-size: 100px;
+}
+.learnMore {
+	border: 1px;
+	border-radius: 15px;
+	font-size: 50px;
+	font-family: fantasy;
+	color: white;
+	align-items: center;
+	justify-content: center
 }
