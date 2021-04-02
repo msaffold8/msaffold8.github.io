@@ -11,24 +11,14 @@ body {
   }
 
   
-  .display-2 {
-	color: black solid;
-	display: flex;
-	/*align-items: center;*/
-	justify-content: center;
-	align-items: center;
-	align-items: center;
-	flex-direction: column;
-	font-size: 70px;
-  }
-
+  .display-2, 
   .lead {
-	color: black solid;
+	font-family: fantasy;
 	display: flex;
-	/*align-items: center;*/
 	justify-content: center;
-	align-items: center;
 	align-items: center;
 	flex-direction: column;
 	font-size: 70px;
+	padding-top: 0px;
+	padding-bottom: 0px;
   }
