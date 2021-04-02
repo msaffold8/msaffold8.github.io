@@ -13,6 +13,7 @@ body {
   .col-12 {
 	  align-items: center;
 	  justify-content: center;
+	  flex-direction: column;
   }
   .lead {
 	font-family: fantasy;
