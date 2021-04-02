@@ -9,4 +9,11 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
   }
-  
+
+  div h1 p {
+	color: black solid;
+	display: flex;
+	/*align-items: center;*/
+	justify-content: center;
+	flex-direction: column;
+  }
