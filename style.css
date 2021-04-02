@@ -47,5 +47,6 @@ body {
 	font-family: fantasy;
 	color: white;
 	align-items: center;
-	justify-content: center
+	justify-content: center;
+	background-color: red;
 }
