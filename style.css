@@ -9,6 +9,11 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
   }
+
+  .col-12 {
+	  align-items: center;
+	  justify-content: center;
+  }
   .lead {
 	font-family: fantasy;
 	display: flex;
