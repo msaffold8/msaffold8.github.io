@@ -1,6 +1,6 @@
 #myName {
     font-family: 'Karla', sans-serif;
-    color: rgb(85, 84, 84);
+    color: rgb(85, 84, 84); 
     font-size: 35px;
 }
 
@@ -11,9 +11,12 @@ ul.nav.navbar-nav.navbar-right a {
     background-color: transparent;
     font-size: 25px;
     margin-left: 40px;
-    color: rgb(85, 84, 84);
-    
+    color: rgb(85, 84, 84);  
 }
+
+ul.nav.navbar-nav.navbar-right a:hover {
+    color: orange; 
+  }
 .navbar {
     padding: 20px;
     background-color: white;
