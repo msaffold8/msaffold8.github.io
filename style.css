@@ -1,7 +1,9 @@
-#myName {
-    font-family: 'Karla', sans-serif;
-    color: rgb(85, 84, 84); 
-    font-size: 35px;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#logo {
+    font-family: 'Pacifico', sans-serif;
+    color: orange; 
+    font-size: 25px;
 }
 
 ul.nav.navbar-nav.navbar-right a {
